@@ -11,15 +11,23 @@ public class BarracudaRunner : MonoBehaviour
     public WorkerFactory.Type WorkerType = WorkerFactory.Type.Auto;
     void Start()
     {
+        
         m_RuntimeModel = ModelLoader.Load(modelAsset);
         m_Worker = WorkerFactory.CreateWorker(WorkerType, m_RuntimeModel);
+        //print(m_Worker.PeekOutput(outputLayer0));
+        foreach (var layer in m_RuntimeModel.layers)
+            Debug.Log(layer.name + " does " + layer.type);
     }
 
+    Tensor[] b_outputs = new Tensor[4];
     void Update()
     {
-        Tensor input = new Tensor(textureInput);
+        
+        Tensor input = new Tensor(textureInput,3);
         m_Worker.Execute(input);
-        Tensor O = m_Worker.PeekOutput("output_layer_name");
+        
+        
         input.Dispose();
+        
     }
 }

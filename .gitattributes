@@ -61,5 +61,9 @@
 *.rar filter=lfs diff=lfs merge=lfs -text
 *.tar filter=lfs diff=lfs merge=lfs -text
 
+# ML Model
+*.onnx filter=lfs diff=lfs merge=lfs -text
+
+
 # Folder
 Assets/Samples filter=lfs diff=lfs merge=lfs -text
