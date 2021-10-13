@@ -1,4 +1,5 @@
 # Emotion-Effect
+A project to expore the emotion and color interaction.
 
 ## Credits
 https://assetstore.unity.com/packages/add-ons/machinelearning/moodme-emotions-barracuda-sdk-191930 \
