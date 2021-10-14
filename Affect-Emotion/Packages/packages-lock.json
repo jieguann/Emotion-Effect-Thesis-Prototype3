@@ -12,8 +12,8 @@
       "hash": "4e9443784a938275221497a0a6d5a23b84a239c9"
     },
     "com.unity.burst": {
-      "version": "1.6.0",
-      "depth": 1,
+      "version": "1.6.1",
+      "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.mathematics": "1.2.1"
@@ -63,7 +63,7 @@
     },
     "com.unity.mathematics": {
       "version": "1.2.1",
-      "depth": 2,
+      "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
