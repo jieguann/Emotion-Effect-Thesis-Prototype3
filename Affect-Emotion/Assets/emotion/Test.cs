@@ -1,10 +1,11 @@
 using UnityEngine;
 using Unity.Barracuda;
 using System.Linq;
-
+using System.Collections;
+using System.Collections.Generic;
 namespace EmotionFerPlus {
 
-sealed class Test : MonoBehaviour
+public sealed class Test : MonoBehaviour
 {
     #region Editable attributes
 
@@ -20,21 +21,32 @@ sealed class Test : MonoBehaviour
     #region Compile-time constants
 
     const int ImageSize = 64;
-
+        
     readonly static string[] Labels =
       { "Neutral", "Happiness", "Surprise", "Sadness",
         "Anger", "Disgust", "Fear", "Contempt"};
 
-    #endregion
+        #endregion
+        //public float[] emotionState;
+        #region MonoBehaviour implementation
 
-    #region MonoBehaviour implementation
+        public List<string> emotionStates;
 
-    void Start()
+        
+            public float happy;
+            public float sad;
+            public float anxious;
+            public float angry;
+            public float afraid;
+            public float surprised;
+
+        
+        void Start()
     {
-        
 
-        
-    }
+            emotionStates = new List<string>();
+
+        }
 
         private void Update()
         {
@@ -55,10 +67,39 @@ sealed class Test : MonoBehaviour
             var lines = Labels.Zip(probs, (l, p) => $"{l,-12}: {p / sum:0.00}");
             _label.text = string.Join("\n", lines);
 
+            emotionStates.Clear();
+            //float probsF[] = sum;
+            foreach (var value in lines)
+            {
+                emotionStates.Add(value);
+            }
+            //print(emotionStates[0]);
+            /*
+             * The model outputs a (1x8) array of scores corresponding to the 8 emotion classes, 
+             * where the labels map as follows: 
+             * emotion_table = 
+             * {'neutral':0, 'happiness':1, 'surprise':2, 'sadness':3, 'anger':4, 'disgust':5, 'fear':6, 'contempt':7}
+             */
+            //print(float.Parse(emotionStates[0].Substring(emotionStates[0].IndexOf(":") + 1)));
+            happy = getFolatofEmotion(1);
+            surprised = getFolatofEmotion(2);
+            sad = getFolatofEmotion(3);
+            angry = getFolatofEmotion(4);
+            afraid = getFolatofEmotion(6);
+            anxious = getFolatofEmotion(5);
+
+
             _preview.texture = renderTexture;
         }
 
+        float getFolatofEmotion(int index)
+        {
+            return float.Parse(emotionStates[index].Substring(emotionStates[index].IndexOf(":") + 1));
+        }
+
         #endregion
+        
     }
+    
 
 } // namespace EmotionFerPlus
