@@ -39,8 +39,10 @@ public sealed class Test : MonoBehaviour
             public float angry;
             public float afraid;
             public float surprised;
+            public float neutral;
 
-        
+
+
         void Start()
     {
 
@@ -87,6 +89,7 @@ public sealed class Test : MonoBehaviour
             angry = getFolatofEmotion(4);
             afraid = getFolatofEmotion(6);
             anxious = getFolatofEmotion(5);
+            neutral = getFolatofEmotion(0);
 
 
             _preview.texture = renderTexture;

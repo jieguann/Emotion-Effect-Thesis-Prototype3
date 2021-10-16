@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -245,6 +245,100 @@ MonoBehaviour:
   angry: 0
   afraid: 0
   surprised: 0
+  neutral: 0
+--- !u!1 &257392479
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 257392481}
+  - component: {fileID: 257392480}
+  m_Layer: 0
+  m_Name: Directional Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &257392480
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 257392479}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 1
+  m_Shape: 0
+  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.02
+    m_NormalBias: 0.1
+    m_NearPlane: 0.1
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &257392481
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 257392479}
+  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalPosition: {x: 710.39795, y: 452.46582, z: 410.18262}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &282461349
 GameObject:
   m_ObjectHideFlags: 0
@@ -545,6 +639,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1747856372}
   - component: {fileID: 1747856371}
+  - component: {fileID: 1747856373}
   m_Layer: 0
   m_Name: VideoPlayer
   m_TagString: Untagged
@@ -560,7 +655,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1747856370}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 7e49b9262b498514384757e6003dcf0b, type: 3}
+  m_VideoClip: {fileID: 0}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -570,14 +665,14 @@ VideoPlayer:
   m_TargetMaterialProperty: _MainTex
   m_RenderMode: 2
   m_AspectRatio: 2
-  m_DataSource: 1
+  m_DataSource: 0
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
   m_TargetAudioSources:
   - {fileID: 0}
   m_DirectAudioVolumes:
   - 1
-  m_Url: https://unity-youtube-dl-server.herokuapp.com/watch?v=nREV8bQJ1MA
+  m_Url: https://r8---sn-cxaaj5o5q5-tt1y.googlevideo.com/videoplayback?expire=1634371078&ei=pjFqYdugCPGwlu8P7r6PgAo&ip=142.182.177.155&id=o-AP6p7Uz5KDd19lqaIgJADJ6L9bX6knAG8FxsDE_49IAo&itag=22&source=youtube&requiressl=yes&mh=8R&mm=31%2C26&mn=sn-cxaaj5o5q5-tt1y%2Csn-vgqsrned&ms=au%2Conr&mv=m&mvi=8&pl=22&initcwndbps=1365000&vprv=1&mime=video%2Fmp4&ns=HCp8dilbudZ9Nqa4LsbMOOMG&cnr=14&ratebypass=yes&dur=577.619&lmt=1634328772231160&mt=1634349188&fvip=5&fexp=24001373%2C24007246&c=WEB&txp=5532434&n=1KTjLMjulpej8-8xS&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cns%2Ccnr%2Cratebypass%2Cdur%2Clmt&sig=AOq0QJ8wRAIgILL64HGjDJTLwbBGq9PfD5K3NOk56gHnZ5kdCt_4xB4CIHAWl2ev4fRHKXz4D6hq4RtSY5k3Y05dxAf5w15XW2eL&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRAIgEfMnb1-NmGVNDiqkqYljw2-Hgg5U36kY5nwtzQK5GAECIB7id2HCCGmt1CZbfza5YeG_iZQtX0AXuSt9HS5q9D77
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1
@@ -601,6 +696,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1747856373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1747856370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3768fe280903842fdaa2a016022624f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  youtubeUrl: https://www.youtube.com/watch?v=bo_efYhYU2A
+  is360Video: 0
 --- !u!1 &1824815488
 GameObject:
   m_ObjectHideFlags: 0
@@ -747,7 +856,7 @@ Camera:
   m_GameObject: {fileID: 2060334155}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 2
+  m_ClearFlags: 1
   m_BackGroundColor: {r: 0.13207549, g: 0.13207549, b: 0.13207549, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2

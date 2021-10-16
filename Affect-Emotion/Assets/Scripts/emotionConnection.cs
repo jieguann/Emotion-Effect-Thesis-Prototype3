@@ -24,6 +24,7 @@ public class emotionConnection : MonoBehaviour
         material.SetFloat("GreenFloat", test.happy);
         material.SetFloat("BlueFloat", test.sad);
         material.SetFloat("PurpleFloat", test.anxious);
+        material.SetFloat("WhiteFloat", test.neutral);
 
 
     }
