@@ -89,19 +89,19 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - BlueFloat: 0.02
-    - GreenFloat: 0.63
+    - BlueFloat: 0.09
+    - GreenFloat: 0.08
     - OrangeFloat: 0
     - PurpleFloat: 0
-    - RedFloat: 0.09
+    - RedFloat: 0.12
     - Vector1_4a497f2f99bb434089a782d3b0d4f528: 0.11
     - Vector1_5f4f066ae42646d4b51e31a1da53d352: 0
     - Vector1_88be1c0dce124c2b9d1d0c08c433b287: 0.01
     - Vector1_930468826ed04ee39c551c72c810acd6: 0
     - Vector1_cba2a4bb75d44c1cab3fcc8909ef9dc0: 0.17
     - Vector1_fe600c6d90cd4d6487b48c5833920eb6: 0.93
-    - WhiteFloat: 0.26
-    - YellowFloat: 0.01
+    - WhiteFloat: 0.66
+    - YellowFloat: 0.04
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
