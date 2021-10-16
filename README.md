@@ -4,9 +4,10 @@ A project to expore the emotion and color interaction.
 ## Reference
 https://github.com/onnx/models/tree/master/vision/body_analysis/emotion_ferplus \
 https://blossomireland.ie/body-maps-and-emotions-colour-wheel/ \
-K神
-## Credits
+https://github.com/keijiro/EmotionFerPlus
 
+## Credits
+https://github.com/flagbug/YoutubeExtractor
 
 
 
