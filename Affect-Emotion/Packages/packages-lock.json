@@ -1,5 +1,14 @@
 {
   "dependencies": {
+    "com.ibicha.youtube-player": {
+      "version": "1.6.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "2.0.0"
+      },
+      "url": "https://registry.npmjs.com"
+    },
     "com.unity.barracuda": {
       "version": "https://github.com/Unity-Technologies/barracuda-release.git",
       "depth": 0,

@@ -238,6 +238,13 @@ MonoBehaviour:
   _preprocessor: {fileID: 7200000, guid: f81701aead3b8df45b4dbf2a4666dd88, type: 3}
   _preview: {fileID: 1824815490}
   _label: {fileID: 982789938}
+  emotionStates: []
+  happy: 0
+  sad: 0
+  anxious: 0
+  angry: 0
+  afraid: 0
+  surprised: 0
 --- !u!1 &282461349
 GameObject:
   m_ObjectHideFlags: 0
@@ -527,6 +534,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   material: {fileID: 2100000, guid: 30319885d784e274f8ee20ea2c1ff3f1, type: 2}
+  test: {fileID: 240686237}
 --- !u!1 &1747856370
 GameObject:
   m_ObjectHideFlags: 0
@@ -552,7 +560,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1747856370}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: b230f9fb9c7e4df42916888c60ef3673, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 7e49b9262b498514384757e6003dcf0b, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -562,14 +570,14 @@ VideoPlayer:
   m_TargetMaterialProperty: _MainTex
   m_RenderMode: 2
   m_AspectRatio: 2
-  m_DataSource: 0
+  m_DataSource: 1
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
   m_TargetAudioSources:
   - {fileID: 0}
   m_DirectAudioVolumes:
   - 1
-  m_Url: 
+  m_Url: https://unity-youtube-dl-server.herokuapp.com/watch?v=nREV8bQJ1MA
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1

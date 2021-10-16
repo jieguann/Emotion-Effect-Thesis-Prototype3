@@ -1,5 +1,13 @@
 {
+  "scopedRegistries": [
+    {
+      "name": "iBicha",
+      "url": "https://registry.npmjs.com",
+      "scopes": [ "com.ibicha" ]
+    }
+  ],
   "dependencies": {
+    "com.ibicha.youtube-player": "1.6.0",
     "com.unity.barracuda": "https://github.com/Unity-Technologies/barracuda-release.git",
     "com.unity.burst": "1.6.1",
     "com.unity.collab-proxy": "1.7.1",
