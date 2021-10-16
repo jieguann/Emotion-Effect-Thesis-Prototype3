@@ -1,5 +1,7 @@
 # Emotion-Effect
-A project to expore the emotion and color interaction.
+A project to expore the emotion and color interaction. \
+
+https://www.youtube.com/watch?v=B0ouAnmsO1Y
 
 ## Reference
 https://github.com/onnx/models/tree/master/vision/body_analysis/emotion_ferplus \
