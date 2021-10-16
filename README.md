@@ -8,7 +8,7 @@ https://github.com/keijiro/EmotionFerPlus
 
 ## Credits
 https://github.com/jieguann/UnityYoutubePlayer \
-"Interior bedroom" (https://skfb.ly/6wnrR) by Nikitos & 3130 is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+https://www.youtube.com/watch?v=B0ouAnmsO1Y
 
 
 
