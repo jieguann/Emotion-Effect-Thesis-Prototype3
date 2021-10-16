@@ -8,7 +8,7 @@ https://github.com/keijiro/EmotionFerPlus
 
 ## Credits
 https://github.com/jieguann/UnityYoutubePlayer \
-https://sketchfab.com/3d-models/bedroom-7b85b6628fa04281b796e9c0de34794b#download
+"Interior bedroom" (https://skfb.ly/6wnrR) by Nikitos & 3130 is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
 
 
 
