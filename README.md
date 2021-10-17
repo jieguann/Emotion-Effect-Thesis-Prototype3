@@ -1,13 +1,16 @@
 # Emotion-Effect
-A project to expore the emotion and color interaction.
+A project to expore the emotion and color interaction. \
+
+https://www.youtube.com/watch?v=B0ouAnmsO1Y
 
 ## Reference
 https://github.com/onnx/models/tree/master/vision/body_analysis/emotion_ferplus \
 https://blossomireland.ie/body-maps-and-emotions-colour-wheel/ \
-K神
+https://github.com/keijiro/EmotionFerPlus
+
 ## Credits
-
-
+https://github.com/jieguann/UnityYoutubePlayer \
+https://www.youtube.com/watch?v=B0ouAnmsO1Y
 
 
 
