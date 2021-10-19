@@ -4,18 +4,18 @@ A project to expore the emotion and color interaction. \
 https://www.youtube.com/watch?v=B0ouAnmsO1Y
 
 ## Reference
-https://github.com/onnx/models/tree/master/vision/body_analysis/emotion_ferplus \
-https://blossomireland.ie/body-maps-and-emotions-colour-wheel/ \
-https://github.com/keijiro/EmotionFerPlus
+Emotion Model https://github.com/onnx/models/tree/master/vision/body_analysis/emotion_ferplus \
+Emotions States Map to Color https://blossomireland.ie/body-maps-and-emotions-colour-wheel/ 
+
 
 ## Credits
-https://github.com/jieguann/UnityYoutubePlayer \
-https://www.youtube.com/watch?v=B0ouAnmsO1Y
-
+Video for Test https://www.youtube.com/watch?v=B0ouAnmsO1Y \
+Emotion Fer Plus in Unity https://github.com/keijiro/EmotionFerPlus
 
 
 
 ## Preresesearch
+Unity Youtube Player https://github.com/jieguann/UnityYoutubePlayer \
 moodme-emotions Free Version https://assetstore.unity.com/packages/add-ons/machinelearning/moodme-emotions-barracuda-sdk-191930 \
 Emotion Model https://github.com/onnx/models/tree/master/vision/body_analysis/emotion_ferplus \
 Emonet https://github.com/face-analysis/emonet \
