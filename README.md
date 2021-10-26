@@ -1,7 +1,9 @@
 # Emotion-Effect
 The first prototype (see Fig 1) attempts to explore the relationship between human emotion and colour to provide a virtual environment that reflects the human's emotional state. Based on the deep networks for the facial expression recognition model (Barsoum et al.), the system is able to recognize the human emotional state from video resources or real-time video. The model is able to provide seven states of the emotion with scores (neutral, happiness, surprise, sadness, anger, disgust, fear, contempt) that can be mapped into the colour that developed based on Jamet's emotion colour wheel (see Fig 2).
 
-https://www.youtube.com/watch?v=B0ouAnmsO1Y
+![Capture](https://user-images.githubusercontent.com/60665347/138810981-c7f680ab-f7f2-4061-a760-e934d37dda7e.PNG)
+
+https://www.youtube.com/watch?v=HpYXZP1bDPc&t=7s
 
 Although the emotion recognition part should be supported by computer vision and deep learning, the trained model could be found on the internet and be used directly in the application. In terms of the reflection of the emotion in colour, there are various model could be choice (Nijdam) and the project start with the simple one (Jamet's emotion colour wheel). Fig 3 demonstrates the sketch of the concept of turn emotion into colour, and Fig 4 and 5 show the process of the work.
 
