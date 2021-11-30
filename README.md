@@ -23,7 +23,7 @@ Nijdam, Niels A. "Mapping emotion to color." Book Mapping emotion to color (2009
 
 
 
-## Preresesearch
+## Pre-resesearch
 Unity Youtube Player https://github.com/jieguann/UnityYoutubePlayer \
 moodme-emotions Free Version https://assetstore.unity.com/packages/add-ons/machinelearning/moodme-emotions-barracuda-sdk-191930 \
 Emotion Model https://github.com/onnx/models/tree/master/vision/body_analysis/emotion_ferplus \
